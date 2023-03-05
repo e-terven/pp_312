@@ -64,9 +64,5 @@ public class UserController {
         return "redirect:/users";
     }
 
-//    @RequestMapping("/error")
-//    public String handleError(HttpServletRequest request) {
-//        Integer statusCode = (Integer) request.getAttribute("javax.servlet.error.status_code");
-//        return "error";
-//    }
+
 }
